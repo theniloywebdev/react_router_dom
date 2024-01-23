@@ -1,9 +1,5 @@
 
 
-function App() {
- 
-  return (
-    <>
      1st : For Install : npm i react-router-dom 
      =====================
 
@@ -21,13 +17,7 @@ function App() {
       path: "/",
       element: <div>HELLOW NILOY!!!</div>,
     },  
-]);
-  =====================
+    ]);
+    =====================
      
      4th : <RouterProvider router={router} />
-
-    </>
-  )
-}
-
-export default App
